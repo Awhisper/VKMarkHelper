@@ -36,7 +36,7 @@ OneDayShowOnceVKMark(lololo);
 
 第一次标记功能，使用 FirstLaunchVKMark() 宏来定义，参数为标记位名字
 
-每天一次标记功能，使用OneDayShowOnceVKMark（）宏来定义，参数为标记位名字
+每天一次标记功能，使用OneDayShowOnceVKMark()宏来定义，参数为标记位名字
 
 #### 使用
 
@@ -48,6 +48,7 @@ FirstLaunchVKMark(name) 会自动生成2个函数
 ```
 
 setFirstLaunchVKMark+name方法用于标记执行过一次
+
 isFirstLaunchedVKMark方法用于判断标记是否已经执行过一次
 
 OneDayShowOnceVKMark(name) 会自动生成2个函数
@@ -58,6 +59,7 @@ OneDayShowOnceVKMark(name) 会自动生成2个函数
 ```
 
 setTodayShowOnceVKMark+name 方法用于标记今日执行过一次
+
 isTodayShowedOnceVKMark+name 方法用于判断标记今日是否执行过一次
 
 具体可以看demo
