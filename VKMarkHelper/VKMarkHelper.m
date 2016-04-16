@@ -84,7 +84,7 @@ BOOL dynamicVKMarkBoolGetterIMP(id self, SEL _cmd)
 {
     NSDate * lastCheckDate = [self oneDayShowOnceLoadLastCheckDateWithVKMark:mark];
     NSDate * thisDate = [NSDate date];
-    if (lastCheckDate.day == thisDate.day) {
+    if (lastCheckDate.VKDay == thisDate.VKDay) {
         return YES;
     }else
     {

@@ -10,6 +10,6 @@
 
 @interface NSDate (VKMarkHelper)
 
-@property (readonly) NSInteger day;
+@property (readonly) NSInteger VKDay;
 
 @end
