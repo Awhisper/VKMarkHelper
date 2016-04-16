@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CD4892B1CC22D2E008D1BB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD4892A1CC22D2E008D1BB0 /* main.m */; };
+		6CD4892E1CC22D2E008D1BB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD4892D1CC22D2E008D1BB0 /* AppDelegate.m */; };
+		6CD489311CC22D2E008D1BB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD489301CC22D2E008D1BB0 /* ViewController.m */; };
+		6CD489341CC22D2E008D1BB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD489321CC22D2E008D1BB0 /* Main.storyboard */; };
+		6CD489361CC22D2E008D1BB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD489351CC22D2E008D1BB0 /* Assets.xcassets */; };
+		6CD489391CC22D2E008D1BB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD489371CC22D2E008D1BB0 /* LaunchScreen.storyboard */; };
+		6CD489441CC22D2E008D1BB0 /* VKMarkHelperDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD489431CC22D2E008D1BB0 /* VKMarkHelperDemoTests.m */; };
+		6CD4894F1CC22D2E008D1BB0 /* VKMarkHelperDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD4894E1CC22D2E008D1BB0 /* VKMarkHelperDemoUITests.m */; };
+		6CD489611CC22D38008D1BB0 /* NSDate+VKMarkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD4895E1CC22D38008D1BB0 /* NSDate+VKMarkHelper.m */; };
+		6CD489621CC22D38008D1BB0 /* VKMarkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD489601CC22D38008D1BB0 /* VKMarkHelper.m */; };
+		6CD489651CC22D70008D1BB0 /* VKMarkHelper+demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD489641CC22D70008D1BB0 /* VKMarkHelper+demo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CD489401CC22D2E008D1BB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CD4891E1CC22D2E008D1BB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CD489251CC22D2E008D1BB0;
+			remoteInfo = VKMarkHelperDemo;
+		};
+		6CD4894B1CC22D2E008D1BB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CD4891E1CC22D2E008D1BB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CD489251CC22D2E008D1BB0;
+			remoteInfo = VKMarkHelperDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CD489261CC22D2E008D1BB0 /* VKMarkHelperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKMarkHelperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD4892A1CC22D2E008D1BB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CD4892C1CC22D2E008D1BB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CD4892D1CC22D2E008D1BB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CD4892F1CC22D2E008D1BB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6CD489301CC22D2E008D1BB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CD489331CC22D2E008D1BB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CD489351CC22D2E008D1BB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CD489381CC22D2E008D1BB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CD4893A1CC22D2E008D1BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD4893F1CC22D2E008D1BB0 /* VKMarkHelperDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKMarkHelperDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD489431CC22D2E008D1BB0 /* VKMarkHelperDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKMarkHelperDemoTests.m; sourceTree = "<group>"; };
+		6CD489451CC22D2E008D1BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD4894A1CC22D2E008D1BB0 /* VKMarkHelperDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKMarkHelperDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD4894E1CC22D2E008D1BB0 /* VKMarkHelperDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKMarkHelperDemoUITests.m; sourceTree = "<group>"; };
+		6CD489501CC22D2E008D1BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD4895D1CC22D38008D1BB0 /* NSDate+VKMarkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+VKMarkHelper.h"; sourceTree = "<group>"; };
+		6CD4895E1CC22D38008D1BB0 /* NSDate+VKMarkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+VKMarkHelper.m"; sourceTree = "<group>"; };
+		6CD4895F1CC22D38008D1BB0 /* VKMarkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKMarkHelper.h; sourceTree = "<group>"; };
+		6CD489601CC22D38008D1BB0 /* VKMarkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKMarkHelper.m; sourceTree = "<group>"; };
+		6CD489631CC22D70008D1BB0 /* VKMarkHelper+demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VKMarkHelper+demo.h"; sourceTree = "<group>"; };
+		6CD489641CC22D70008D1BB0 /* VKMarkHelper+demo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VKMarkHelper+demo.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CD489231CC22D2E008D1BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD4893C1CC22D2E008D1BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD489471CC22D2E008D1BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CD4891D1CC22D2E008D1BB0 = {
+			isa = PBXGroup;
+			children = (
+				6CD4895C1CC22D38008D1BB0 /* VKMarkHelper */,
+				6CD489281CC22D2E008D1BB0 /* VKMarkHelperDemo */,
+				6CD489421CC22D2E008D1BB0 /* VKMarkHelperDemoTests */,
+				6CD4894D1CC22D2E008D1BB0 /* VKMarkHelperDemoUITests */,
+				6CD489271CC22D2E008D1BB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CD489271CC22D2E008D1BB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CD489261CC22D2E008D1BB0 /* VKMarkHelperDemo.app */,
+				6CD4893F1CC22D2E008D1BB0 /* VKMarkHelperDemoTests.xctest */,
+				6CD4894A1CC22D2E008D1BB0 /* VKMarkHelperDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CD489281CC22D2E008D1BB0 /* VKMarkHelperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6CD489631CC22D70008D1BB0 /* VKMarkHelper+demo.h */,
+				6CD489641CC22D70008D1BB0 /* VKMarkHelper+demo.m */,
+				6CD4892C1CC22D2E008D1BB0 /* AppDelegate.h */,
+				6CD4892D1CC22D2E008D1BB0 /* AppDelegate.m */,
+				6CD4892F1CC22D2E008D1BB0 /* ViewController.h */,
+				6CD489301CC22D2E008D1BB0 /* ViewController.m */,
+				6CD489321CC22D2E008D1BB0 /* Main.storyboard */,
+				6CD489351CC22D2E008D1BB0 /* Assets.xcassets */,
+				6CD489371CC22D2E008D1BB0 /* LaunchScreen.storyboard */,
+				6CD4893A1CC22D2E008D1BB0 /* Info.plist */,
+				6CD489291CC22D2E008D1BB0 /* Supporting Files */,
+			);
+			path = VKMarkHelperDemo;
+			sourceTree = "<group>";
+		};
+		6CD489291CC22D2E008D1BB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CD4892A1CC22D2E008D1BB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CD489421CC22D2E008D1BB0 /* VKMarkHelperDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CD489431CC22D2E008D1BB0 /* VKMarkHelperDemoTests.m */,
+				6CD489451CC22D2E008D1BB0 /* Info.plist */,
+			);
+			path = VKMarkHelperDemoTests;
+			sourceTree = "<group>";
+		};
+		6CD4894D1CC22D2E008D1BB0 /* VKMarkHelperDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CD4894E1CC22D2E008D1BB0 /* VKMarkHelperDemoUITests.m */,
+				6CD489501CC22D2E008D1BB0 /* Info.plist */,
+			);
+			path = VKMarkHelperDemoUITests;
+			sourceTree = "<group>";
+		};
+		6CD4895C1CC22D38008D1BB0 /* VKMarkHelper */ = {
+			isa = PBXGroup;
+			children = (
+				6CD4895D1CC22D38008D1BB0 /* NSDate+VKMarkHelper.h */,
+				6CD4895E1CC22D38008D1BB0 /* NSDate+VKMarkHelper.m */,
+				6CD4895F1CC22D38008D1BB0 /* VKMarkHelper.h */,
+				6CD489601CC22D38008D1BB0 /* VKMarkHelper.m */,
+			);
+			name = VKMarkHelper;
+			path = ../VKMarkHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CD489251CC22D2E008D1BB0 /* VKMarkHelperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CD489531CC22D2E008D1BB0 /* Build configuration list for PBXNativeTarget "VKMarkHelperDemo" */;
+			buildPhases = (
+				6CD489221CC22D2E008D1BB0 /* Sources */,
+				6CD489231CC22D2E008D1BB0 /* Frameworks */,
+				6CD489241CC22D2E008D1BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKMarkHelperDemo;
+			productName = VKMarkHelperDemo;
+			productReference = 6CD489261CC22D2E008D1BB0 /* VKMarkHelperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CD4893E1CC22D2E008D1BB0 /* VKMarkHelperDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CD489561CC22D2E008D1BB0 /* Build configuration list for PBXNativeTarget "VKMarkHelperDemoTests" */;
+			buildPhases = (
+				6CD4893B1CC22D2E008D1BB0 /* Sources */,
+				6CD4893C1CC22D2E008D1BB0 /* Frameworks */,
+				6CD4893D1CC22D2E008D1BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CD489411CC22D2E008D1BB0 /* PBXTargetDependency */,
+			);
+			name = VKMarkHelperDemoTests;
+			productName = VKMarkHelperDemoTests;
+			productReference = 6CD4893F1CC22D2E008D1BB0 /* VKMarkHelperDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CD489491CC22D2E008D1BB0 /* VKMarkHelperDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CD489591CC22D2E008D1BB0 /* Build configuration list for PBXNativeTarget "VKMarkHelperDemoUITests" */;
+			buildPhases = (
+				6CD489461CC22D2E008D1BB0 /* Sources */,
+				6CD489471CC22D2E008D1BB0 /* Frameworks */,
+				6CD489481CC22D2E008D1BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CD4894C1CC22D2E008D1BB0 /* PBXTargetDependency */,
+			);
+			name = VKMarkHelperDemoUITests;
+			productName = VKMarkHelperDemoUITests;
+			productReference = 6CD4894A1CC22D2E008D1BB0 /* VKMarkHelperDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CD4891E1CC22D2E008D1BB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Awhisper;
+				TargetAttributes = {
+					6CD489251CC22D2E008D1BB0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					6CD4893E1CC22D2E008D1BB0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6CD489251CC22D2E008D1BB0;
+					};
+					6CD489491CC22D2E008D1BB0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6CD489251CC22D2E008D1BB0;
+					};
+				};
+			};
+			buildConfigurationList = 6CD489211CC22D2E008D1BB0 /* Build configuration list for PBXProject "VKMarkHelperDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CD4891D1CC22D2E008D1BB0;
+			productRefGroup = 6CD489271CC22D2E008D1BB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CD489251CC22D2E008D1BB0 /* VKMarkHelperDemo */,
+				6CD4893E1CC22D2E008D1BB0 /* VKMarkHelperDemoTests */,
+				6CD489491CC22D2E008D1BB0 /* VKMarkHelperDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CD489241CC22D2E008D1BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD489391CC22D2E008D1BB0 /* LaunchScreen.storyboard in Resources */,
+				6CD489361CC22D2E008D1BB0 /* Assets.xcassets in Resources */,
+				6CD489341CC22D2E008D1BB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD4893D1CC22D2E008D1BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD489481CC22D2E008D1BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CD489221CC22D2E008D1BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD489311CC22D2E008D1BB0 /* ViewController.m in Sources */,
+				6CD4892E1CC22D2E008D1BB0 /* AppDelegate.m in Sources */,
+				6CD489611CC22D38008D1BB0 /* NSDate+VKMarkHelper.m in Sources */,
+				6CD489651CC22D70008D1BB0 /* VKMarkHelper+demo.m in Sources */,
+				6CD489621CC22D38008D1BB0 /* VKMarkHelper.m in Sources */,
+				6CD4892B1CC22D2E008D1BB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD4893B1CC22D2E008D1BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD489441CC22D2E008D1BB0 /* VKMarkHelperDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD489461CC22D2E008D1BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD4894F1CC22D2E008D1BB0 /* VKMarkHelperDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CD489411CC22D2E008D1BB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CD489251CC22D2E008D1BB0 /* VKMarkHelperDemo */;
+			targetProxy = 6CD489401CC22D2E008D1BB0 /* PBXContainerItemProxy */;
+		};
+		6CD4894C1CC22D2E008D1BB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CD489251CC22D2E008D1BB0 /* VKMarkHelperDemo */;
+			targetProxy = 6CD4894B1CC22D2E008D1BB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CD489321CC22D2E008D1BB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CD489331CC22D2E008D1BB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CD489371CC22D2E008D1BB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CD489381CC22D2E008D1BB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CD489511CC22D2E008D1BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CD489521CC22D2E008D1BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CD489541CC22D2E008D1BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VKMarkHelperDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.awhisper.test.VKMarkHelperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CD489551CC22D2E008D1BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VKMarkHelperDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.awhisper.test.VKMarkHelperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6CD489571CC22D2E008D1BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VKMarkHelperDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.awhisper.test.VKMarkHelperDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKMarkHelperDemo.app/VKMarkHelperDemo";
+			};
+			name = Debug;
+		};
+		6CD489581CC22D2E008D1BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VKMarkHelperDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.awhisper.test.VKMarkHelperDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKMarkHelperDemo.app/VKMarkHelperDemo";
+			};
+			name = Release;
+		};
+		6CD4895A1CC22D2E008D1BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VKMarkHelperDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.awhisper.test.VKMarkHelperDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VKMarkHelperDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6CD4895B1CC22D2E008D1BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VKMarkHelperDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.awhisper.test.VKMarkHelperDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VKMarkHelperDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CD489211CC22D2E008D1BB0 /* Build configuration list for PBXProject "VKMarkHelperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD489511CC22D2E008D1BB0 /* Debug */,
+				6CD489521CC22D2E008D1BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CD489531CC22D2E008D1BB0 /* Build configuration list for PBXNativeTarget "VKMarkHelperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD489541CC22D2E008D1BB0 /* Debug */,
+				6CD489551CC22D2E008D1BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CD489561CC22D2E008D1BB0 /* Build configuration list for PBXNativeTarget "VKMarkHelperDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD489571CC22D2E008D1BB0 /* Debug */,
+				6CD489581CC22D2E008D1BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CD489591CC22D2E008D1BB0 /* Build configuration list for PBXNativeTarget "VKMarkHelperDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD4895A1CC22D2E008D1BB0 /* Debug */,
+				6CD4895B1CC22D2E008D1BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CD4891E1CC22D2E008D1BB0 /* Project object */;
+}
